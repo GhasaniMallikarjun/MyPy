@@ -16,11 +16,11 @@ app.title("Advice Generator")
 
 advice_message=tk.StringVar()
 message_label=tk.Label(app, textvariable=advice_message, wraplength=400, font=("Arial", 14))
-fetch_button=tk.Button(app, text="Get Advice", command=get_advise)
+fetch_button=tk.Button(app, text="Get Advice", command=get_advise, font="bold")
 
 
-message_label.pack(pady=20)
-fetch_button.pack(pady=10)
+message_label.pack(pady=30, padx=30)
+fetch_button.pack(pady=20)
 
 get_advise()
 app.mainloop()
