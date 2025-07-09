@@ -1,6 +1,6 @@
-from PyQt5.QtWidgets  import QApplication, QMainWindow,  QToolBar, QAction, QlineEdit
+from PyQt5.QtWidgets  import QApplication, QMainWindow,  QToolBar, QAction, QLineEdit
 from PyQt5.QtCore import QUrl
-from PyQt5.QtWebEngineWidgets import import QWebEngineView
+from PyQt5.QtWebEngineWidgets import  QWebEngineView
 import sys
 
 class BrowserWindow(QMainWindow):
